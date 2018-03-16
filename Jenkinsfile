@@ -11,4 +11,8 @@ node {
         sh 'printenv'
     }
 
+    stage('npm install') {
+        sh 'npm install'
+    }
+
 }
